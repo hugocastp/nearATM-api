@@ -42,6 +42,8 @@ Java API que devuelve la ubicación de los Cajeros Automáticos y Sucursales de 
 
 * Si pasas algún dato válido, te retornará la sucursal o ATM más cercano.
 * Si no pasas ningun dato de localización, se mostrarán todas las sucursales y ATM.
+* Input
+`/sucursal/`
 
 
 ## Geocoding API de Google Maps
