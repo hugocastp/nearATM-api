@@ -54,7 +54,6 @@ config.apikey=<Tu key va aquí>
 
 * ***api***
 Contiene la clase `SucursalController`, que contiene las solicitudes/enrutadores de la API y brinda las reglas y la lógica del negocio.
-
 Contiene `LocationsAPI`, que contiene las solicitudes para obtener el JSON de ubicaciones (https://www.banamex.com/localizador/jsonP/json5.json) y transformar
 el resultado en objetos Sucursal.
 
