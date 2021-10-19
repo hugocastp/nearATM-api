@@ -38,7 +38,7 @@ Java API que devuelve la ubicación de los Cajeros Automáticos y Sucursales de 
 }
 ```
 
-![Postman](https://github.com/ungeimer/nearATM-api/blob/master/PostmanTest.jpg?raw=true)
+![Postman](https://github.com/ungeimer/nearATM-api/blob/master/img/PostmanTest.jpg?raw=true)
 
 * Si pasas algún dato válido, te retornará la sucursal o ATM más cercano.
 * Si no pasas ningun dato de localización, se mostrarán todas las sucursales y ATM.
