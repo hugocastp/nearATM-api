@@ -36,6 +36,7 @@ Java API que devuelve la ubicación de los Cajeros Automáticos y Sucursales de 
     "sucLatitude": 32.532667,
     "sucLongitude": -117.113335
 }
+```
 
 ![Postman](https://github.com/ungeimer/nearATM-api/blob/master/PostmanTest.jpg?raw=true)
 
@@ -48,7 +49,7 @@ La API de Geocoding (https://developers.google.com/maps/documentation/geocoding/
 
 ```
 config.apikey=<Tu key va aquí>
-
+```
 
 
 * ***api***
