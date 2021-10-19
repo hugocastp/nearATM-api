@@ -9,7 +9,8 @@ Java API que devuelve la ubicación de los Cajeros Automáticos y Sucursales de 
   - `Maven` installed
 - Visual Studio Code:
   - `Extension Pack for Java:` https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
-  - `Spring Boot Extension Pack:` https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-boot-dev-pack \*`Lombok Annotations Support for VS Code:` https://marketplace.visualstudio.com/items?itemName=GabrielBB.vscode-lombok
+  - `Spring Boot Extension Pack:` https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-boot-dev-pack 
+  - `Lombok Annotations Support for VS Code:` https://marketplace.visualstudio.com/items?itemName=GabrielBB.vscode-lombok
 
 ### Ejecutando el código
 
@@ -44,8 +45,8 @@ Java API que devuelve la ubicación de los Cajeros Automáticos y Sucursales de 
 
 ## Geocoding API de Google Maps
 La API de Geocoding (https://developers.google.com/maps/documentation/geocoding/start) es un servicio que proporciona codificación geográfica (geocoding) y codificación geográfica inversa de direcciones. Para utilizar esta API de Geocoding, primero debe registrarse en (https://developers.google.com/maps/documentation/geocoding/get-api-key) utilizando su ID de Google. Después de registrarse, Google le proporciona una API key que necesita actualizar en el archivo `application.properties` como
-````
 
+```
 config.apikey=<Tu key va aquí>
 
 ```
