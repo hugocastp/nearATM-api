@@ -25,7 +25,7 @@ Java API que devuelve la ubicación de los Cajeros Automáticos y Sucursales de 
 
 # Output
 
-````{
+```{
     "sucNumber": "968",
     "sucType": "Sucursal",
     "sucAddress": {
@@ -74,4 +74,4 @@ Si los puntos estuvieran separados 180 grados, serían puntos opuestos, también
 ## Fórmula del semiverseno
 La [fórmula del semiverseno] (https://es.wikipedia.org/wiki/F%C3%B3rmula_del_semiverseno) es una importante ecuación para la navegación astronómica, en cuanto al cálculo de la distancia de círculo máximo entre dos puntos de un globo sabiendo su longitud y su latitud. Es un caso especial de una fórmula más general de trigonometría esférica, la ley de los semiversenos, que relaciona los lados y ángulos de los "triángulos esféricos".
 
-```
+
