@@ -1,4 +1,9 @@
-c:\Users\Monop\Desktop\nearATM-api\nearatm\src\main\java\com\academy\ibm\nearatm\BanamexApi.java
-c:\Users\Monop\Desktop\nearATM-api\nearatm\src\main\java\com\academy\ibm\nearatm\Duplicates.java
-c:\Users\Monop\Desktop\nearATM-api\nearatm\src\main\java\com\academy\ibm\nearatm\DuplicatesWrapper.java
-c:\Users\Monop\Desktop\nearATM-api\nearatm\src\main\java\com\academy\ibm\nearatm\NearatmApplication.java
+c:\Users\Monop\Desktop\nearATM-api\nearATM-api\src\main\java\com\academy\ibm\nearatm\data\ISucursalService.java
+c:\Users\Monop\Desktop\nearATM-api\nearATM-api\src\main\java\com\academy\ibm\nearatm\data\SucursalService.java
+c:\Users\Monop\Desktop\nearATM-api\nearATM-api\src\main\java\com\academy\ibm\nearatm\NearATMApplication.java
+c:\Users\Monop\Desktop\nearATM-api\nearATM-api\src\main\java\com\academy\ibm\nearatm\api\LocationsAPI.java
+c:\Users\Monop\Desktop\nearATM-api\nearATM-api\src\main\java\com\academy\ibm\nearatm\data\DistanceCalc.java
+c:\Users\Monop\Desktop\nearATM-api\nearATM-api\src\main\java\com\academy\ibm\nearatm\api\SucursalController.java
+c:\Users\Monop\Desktop\nearATM-api\nearATM-api\src\main\java\com\academy\ibm\nearatm\geocode\GeocodeService.java
+c:\Users\Monop\Desktop\nearATM-api\nearATM-api\src\main\java\com\academy\ibm\nearatm\model\Address.java
+c:\Users\Monop\Desktop\nearATM-api\nearATM-api\src\main\java\com\academy\ibm\nearatm\model\Sucursal.java

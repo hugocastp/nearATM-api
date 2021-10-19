@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-NearATMApplication<nearatm>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.academy.ibm.nearatm.NearATMApplication",
+            "projectName": "nearatm",
+            "args": ""
+        }
+    ]
+}

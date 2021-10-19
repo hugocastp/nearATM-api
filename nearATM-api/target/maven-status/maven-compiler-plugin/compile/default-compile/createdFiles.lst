@@ -1,2 +1,9 @@
-com\academy\ibm\nearatm\NearatmApplication.class
-com\academy\ibm\nearatm\DuplicatesWrapper.class
+com\academy\ibm\nearatm\api\LocationsAPI.class
+com\academy\ibm\nearatm\data\ISucursalService.class
+com\academy\ibm\nearatm\geocode\GeocodeService.class
+com\academy\ibm\nearatm\model\Sucursal.class
+com\academy\ibm\nearatm\api\SucursalController.class
+com\academy\ibm\nearatm\NearATMApplication.class
+com\academy\ibm\nearatm\data\SucursalService.class
+com\academy\ibm\nearatm\data\DistanceCalc.class
+com\academy\ibm\nearatm\model\Address.class
