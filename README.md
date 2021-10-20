@@ -26,7 +26,8 @@ Java API que devuelve la ubicación de los Cajeros Automáticos y Sucursales de 
 
 # Output
 
-```{
+```
+{
     "sucNumber": "968",
     "sucType": "Sucursal",
     "sucAddress": {
