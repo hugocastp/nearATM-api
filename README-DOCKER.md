@@ -1,12 +1,13 @@
-# Near ATM API
+# Near ATM API Docker
 
-Java API que devuelve la ubicación de los Cajeros Automáticos y Sucursales de Citibanamex cercanos a la dirección proporcionada.
+Java API que devuelve la ubicación de los Cajeros Automáticos y Sucursales de Citibanamex cercanos a la dirección proporcionada utilizando docker.
 
 ## Importar el proyecto
 
 - Asegurate de tener:
   - `Java (min. version 8)` installed
   - `Maven` installed
+  - `Docker` installed
 - Visual Studio Code:
   - `Extension Pack for Java:` https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
   - `Spring Boot Extension Pack:` https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-boot-dev-pack 
@@ -14,7 +15,29 @@ Java API que devuelve la ubicación de los Cajeros Automáticos y Sucursales de 
 
 ### Ejecutando el código
 
-- La clase `NearATMApplication.java` es la clase principal. Ejecuta su método `main`.
+- Con el archivo Maven configurado correctamente, podemos crear un archivo jar ejecutable:
+  ```
+  $> mvn clean package
+  ```
+- Para crear una imagen a partir de nuestro Dockerfile, tenemos que ejecutar "docker build":
+  ```
+  $> docker build --tag=nearatm:latest .
+  ```
+- Finalmente, podemos ejecutar el contenedor desde nuestra imagen:
+  ```
+  $> docker run -p8888:8080 nearatm:latest
+  ```
+- Esto iniciará nuestra aplicación en Docker, y podemos acceder a ella desde nuestra máquina host en http://localhost:8888/sucursal/. Aquí es importante definir la asignación de       puertos, que asigna un puerto en el host (8888) al puerto dentro de Docker (8080). Este puerto se puede definir en las propiedades de la aplicación Spring Boot.
+
+`Nota: Es posible que el puerto 8888 no esté disponible en la máquina donde iniciamos el contenedor. En este caso, es posible que el mapeo no funcione y debamos elegir un puerto que aún esté disponible.`
+
+Si ejecutamos el contenedor en modo separado, podemos inspeccionar sus detalles, detenerlo y eliminarlo con los siguientes comandos:
+```
+$> docker inspect nearatm
+$> docker ps
+$> docker stop <nearatm container id>
+$> docker rm <nearatm container id>
+```
 
 ### Ejemplo
 
